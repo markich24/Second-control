@@ -6,20 +6,20 @@
 
 body{
     background-color: #ebebeb;
-    /*max-width: 50%;*/
     max-width: 100%;
 
     padding-bottom: 80px;
 }
 section{
     max-width: 50%;
-    /*max-width: 800px;*/
     background-color: #ffffff;
-    padding:420px 85px 300px 65px;
     box-sizing: border-box;
     margin-left: 140px;
 }
-
+div{
+    max-width: 650px;
+    margin: auto;
+}
 p{
     color: #464646;
     line-height: 23px;
@@ -53,8 +53,8 @@ ul{
 li{
     list-style-type: none;
     color: #ffffff;
-    text-align: center;
     box-sizing: border-box;
+    text-align: left;
 
 
 
@@ -65,6 +65,7 @@ ul:first-of-type li:first-of-type{
     background-color: #1f2c39;
     border-radius: 100px 0 0 100px;
     margin-top: 10px;
+    text-align: center;
 
 }
 ul:first-of-type{
@@ -78,6 +79,7 @@ ul:first-of-type li{
 
 ul:nth-child(2) li{
     color:#03246c;
+    padding-left: 26px;
 
 
 }
@@ -88,6 +90,8 @@ ul:nth-child(2) li:first-of-type{
     background-color: #03246c;
     color: #ffffff;
     margin-top: 10px;
+    text-align: center;
+
 }
 
 
@@ -98,6 +102,7 @@ ul:nth-child(3) li:first-of-type{
     background-color: #028090;
     color: #ffffff;
     margin-top: 10px;
+    text-align: center;
 }
 ul:nth-child(3){
     border-right: #028090 solid 3px;
@@ -110,6 +115,7 @@ ul:last-of-type li:first-of-type{
     background-color: #28aeaf;
     color: #ffffff;
     margin-top: 10px;
+    text-align: center;
 }
 
 ul:last-of-type li{
